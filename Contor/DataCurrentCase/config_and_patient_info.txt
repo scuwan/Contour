@@ -1,0 +1,3 @@
+%Configuration file names. Format: first line after this one: single string giving the file name for the current patient. Second line: CT data files for this patient
+../DataCurrentCase/patient001_config.txt
+../DataCurrentCase/CTData/CKCT1/CT1

@@ -1,0 +1,13 @@
+% patient specific configuration data, Format: xsizedosegrid,ysizedosegrid,zsizedosegrid
+% x_offset_dosegrid_to_CTgrid, y_offset_dosegrid_to_CTgrid, z_offset_dosegrid_to_CTgrid.  dosemodel. gridspacing
+% The parameter dosemodel takes values 1, 2 or 3. If 1, uniform water density of all voxels is assumed
+% otherwise, Hounsfieldtable is used to compute relative electron density. dosemodel = 3 means no CT is available, and sets CT to 512x512x512 water tank
+% gridspacing must be an integer > 0. For gridspacing = 2, there are 2mm per voxel, i.e. value 1 is the densest grid
+64
+64
+64
+100
+100
+100
+3
+2
